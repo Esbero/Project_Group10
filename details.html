@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Details </title>
+
+    <style>
+        body{
+    background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(https://i.gifer.com/J4o.gif);
+}
+        .navbar{
+   margin: 1%;
+    font-weight: 100;
+    text-align: center;
+    width: 85%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    }
+.logo{
+    width: 120px;
+    cursor: pointer;
+    background-color: orange;
+    margin: 5%;
+    padding: 1%;
+    border-radius: 30%;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position:relative ;
+}
+.navbar ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: orange;
+    margin-left: 0%;
+    font-size: 14px;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0%;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+        .head{
+            background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)), url(https://img.freepik.com/premium-vector/information-technology-background-with-infographic-elements-flat-icons_302149-127.jpg);
+            margin: 1%;
+            font-weight: 100;
+            text-align: center;
+            color: white;
+            font-size: 44px;
+        }
+        .con{
+            background-image: linear-gradient(rgba(0,0,0,0.60),rgba(0,0,0,0.60)), url(https://img.freepik.com/premium-vector/information-technology-background-with-infographic-elements-flat-icons_302149-127.jpg);
+            margin: 1%;
+            font-weight: 100;
+            text-align: left;
+            color: white;
+        }
+        .com h1{
+            text-align: center;
+        }
+        .Contact ol li{
+            margin: 1%;
+            font-weight: 100;
+            text-align: left;
+            width: 85%;
+            padding: 5px;
+            align-items: center;
+            justify-content: space-between;
+            color: white;
+            font-size: 34px;
+        }
+        
+    </style>
+</head>
+
+<body>
+
+    <hr>
+<div class="navbar">
+    <img src="logo.png" class="logo">
+     <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="objectives.html">Objectives</a></li>
+        <li><a href="teacher.html"> Professor </a></li>
+        <li><a href="aitechs.html">AITECHS</a></li>
+        <li><a href="miles.html">Milestones</a></li>
+        <li><a href="developer.html">Developer</a></li>
+     </ul>
+</div>
+<hr>
+
+    <div class="head">
+        <hr>
+        <h3> Detail Of Information Technology </h3>  
+        <hr>
+    </div>
+
+    <div class="Contact">
+        <ol class="con">
+            <h1> Contact Information </h1>
+            <li> Location: Zabali, Baler, Aurora, Philippines, 3200 </li>
+            <li> Mobile: 09703677966 </li>
+            <li> Email: bsit@gmail.edu.ph </li>
+            <li> Website: http://ascot.edu.ph/departments/department-of-information-technology </li>
+            <li>Facebook: Aurora State College of Technology - ASCOT, </li>
+            <li>Facebook: ASCOT BSIT - Information Technology Department,</li>
+            <li>Facebook: ASCOT - Association of Information Technology Students </li>
+        </ol>
+    </div>
+
+</body>
+</html>
